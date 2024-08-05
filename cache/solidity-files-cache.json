@@ -1,6 +1,224 @@
 {
   "_format": "hh-sol-cache-2",
   "files": {
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
+      "lastModificationDate": 1720416581417,
+      "contentHash": "fb7fa5ae1762ad9a1dd91a8bbd510cb1",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\Bitmap.sol": {
+      "lastModificationDate": 1720416348657,
+      "contentHash": "7623a871b3c05e568864a103f0a57f58",
+      "sourceName": "contracts/types/Bitmap.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "solady/src/utils/LibBit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\Side.sol": {
+      "lastModificationDate": 1720416348657,
+      "contentHash": "39370ae23b71874636011cb81879ce12",
+      "sourceName": "contracts/types/Side.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
+      "lastModificationDate": 1720416593443,
+      "contentHash": "ee9624272968c23d93d4c2e39f06e6e2",
+      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../utils/introspection/IERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\PackedValue.sol": {
+      "lastModificationDate": 1720416348657,
+      "contentHash": "c6d04598f2b61d909969039b054df664",
+      "sourceName": "contracts/types/PackedValue.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-ERC20Permit.sol": {
+      "lastModificationDate": 1720416581131,
+      "contentHash": "0ebe4a60af340ba617d3fb68db43c990",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC20Permit.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": []
+    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\Configurable.sol": {
       "lastModificationDate": 1720416348630,
       "contentHash": "86c0f7e2e8d6d8008509667dbc58036e",
@@ -791,43 +1009,6 @@
         "Address"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-IERC20Permit.sol": {
-      "lastModificationDate": 1720416581417,
-      "contentHash": "fb7fa5ae1762ad9a1dd91a8bbd510cb1",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-IERC20Permit.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC20Permit.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": []
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Permit.sol": {
       "lastModificationDate": 1720416593940,
       "contentHash": "aa849939a4ae83a4dcb2dca9b3e9e707",
@@ -983,47 +1164,10 @@
         "IPool"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\Bitmap.sol": {
-      "lastModificationDate": 1720416348657,
-      "contentHash": "7623a871b3c05e568864a103f0a57f58",
-      "sourceName": "contracts/types/Bitmap.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "solady/src/utils/LibBit.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": []
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\interfaces\\IPoolPosition.sol": {
-      "lastModificationDate": 1720416348632,
-      "contentHash": "02d88cb1693dcadd516bc5f182fc5f51",
-      "sourceName": "contracts/core/interfaces/IPoolPosition.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\interfaces\\IPoolErrors.sol": {
+      "lastModificationDate": 1720416348631,
+      "contentHash": "60bf7a90e7e366ddd43f324731c5d2e4",
+      "sourceName": "contracts/core/interfaces/IPoolErrors.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -1056,7 +1200,7 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "IPoolPosition"
+        "IPoolErrors"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\interfaces\\IPoolLiquidityPosition.sol": {
@@ -1098,10 +1242,10 @@
         "IPoolLiquidityPosition"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\interfaces\\IPoolErrors.sol": {
-      "lastModificationDate": 1720416348631,
-      "contentHash": "60bf7a90e7e366ddd43f324731c5d2e4",
-      "sourceName": "contracts/core/interfaces/IPoolErrors.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\core\\interfaces\\IPoolPosition.sol": {
+      "lastModificationDate": 1720416348632,
+      "contentHash": "02d88cb1693dcadd516bc5f182fc5f51",
+      "sourceName": "contracts/core/interfaces/IPoolPosition.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -1134,43 +1278,8 @@
         "^0.8.0"
       ],
       "artifacts": [
-        "IPoolErrors"
+        "IPoolPosition"
       ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\Side.sol": {
-      "lastModificationDate": 1720416348657,
-      "contentHash": "39370ae23b71874636011cb81879ce12",
-      "sourceName": "contracts/types/Side.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": []
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\solady\\src\\utils\\LibBit.sol": {
       "lastModificationDate": 1720416475074,
@@ -1283,46 +1392,6 @@
         "IChainLinkAggregator"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
-      "lastModificationDate": 1720416594459,
-      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
-      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./math/Math.sol",
-        "./math/SignedMath.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Strings"
-      ]
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Context.sol": {
       "lastModificationDate": 1720416578787,
       "contentHash": "5f2c5c4b6af2dd4551027144797bc8be",
@@ -1397,6 +1466,46 @@
       ],
       "artifacts": [
         "ERC165"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Strings.sol": {
+      "lastModificationDate": 1720416594459,
+      "contentHash": "48686fc32a22a3754b8e63321857dd2a",
+      "sourceName": "@openzeppelin/contracts/utils/Strings.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./math/Math.sol",
+        "./math/SignedMath.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Strings"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\math\\Math.sol": {
@@ -1758,6 +1867,84 @@
         "IGovernor"
       ]
     },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\ECDSA.sol": {
+      "lastModificationDate": 1720416581432,
+      "contentHash": "d822a8a9468649cab463f29f5decf5cc",
+      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Strings.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ECDSA"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\structs\\DoubleEndedQueue.sol": {
+      "lastModificationDate": 1720416581081,
+      "contentHash": "deae946483c170d1eae667c9e35c2f5f",
+      "sourceName": "@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../math/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.4"
+      ],
+      "artifacts": [
+        "DoubleEndedQueue"
+      ]
+    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeCast.sol": {
       "lastModificationDate": 1720416594391,
       "contentHash": "67cf2dfe1d1c22b4ea7f242e8a17f431",
@@ -1835,121 +2022,6 @@
       "artifacts": [
         "EIP712"
       ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\structs\\DoubleEndedQueue.sol": {
-      "lastModificationDate": 1720416581081,
-      "contentHash": "deae946483c170d1eae667c9e35c2f5f",
-      "sourceName": "@openzeppelin/contracts/utils/structs/DoubleEndedQueue.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../math/SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.4"
-      ],
-      "artifacts": [
-        "DoubleEndedQueue"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\cryptography\\ECDSA.sol": {
-      "lastModificationDate": 1720416581432,
-      "contentHash": "d822a8a9468649cab463f29f5decf5cc",
-      "sourceName": "@openzeppelin/contracts/utils/cryptography/ECDSA.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../Strings.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ECDSA"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC165.sol": {
-      "lastModificationDate": 1720416593443,
-      "contentHash": "ee9624272968c23d93d4c2e39f06e6e2",
-      "sourceName": "@openzeppelin/contracts/interfaces/IERC165.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../utils/introspection/IERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": []
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC6372.sol": {
       "lastModificationDate": 1720416594078,
@@ -2101,6 +2173,288 @@
         "StorageSlot"
       ]
     },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorCountingSimple.sol": {
+      "lastModificationDate": 1720416593129,
+      "contentHash": "15aeb0f6f9276254f8d58e65a678ea3f",
+      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Governor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorCountingSimple"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\EQUGovernor.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "60ab9f9e9308110771185cd11be251de",
+      "sourceName": "contracts/governance/EQUGovernor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IEFCGovernor.sol",
+        "./interfaces/IEQUGovernor.sol",
+        "@openzeppelin/contracts/governance/Governor.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "EQUGovernor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\interfaces\\IEFCGovernor.sol": {
+      "lastModificationDate": 1720416348636,
+      "contentHash": "312c3c617a686fbf6aeb76a433156af9",
+      "sourceName": "contracts/governance/interfaces/IEFCGovernor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/governance/IGovernor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IEFCGovernor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\interfaces\\IEQUGovernor.sol": {
+      "lastModificationDate": 1720416348636,
+      "contentHash": "24595312c983eeb99adc2a8354e578ec",
+      "sourceName": "contracts/governance/interfaces/IEQUGovernor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/governance/IGovernor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IEQUGovernor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorVotes.sol": {
+      "lastModificationDate": 1720416593216,
+      "contentHash": "9d21e1da315e8e4d9e5962a25eac0c69",
+      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Governor.sol",
+        "../../interfaces/IERC5805.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorVotes"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorSettings.sol": {
+      "lastModificationDate": 1720416593173,
+      "contentHash": "80ac7eb356eca556a3023dc3848fb40a",
+      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../Governor.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorSettings"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorVotesQuorumFraction.sol": {
+      "lastModificationDate": 1720416593244,
+      "contentHash": "d8f2eb542aaa4fc25d2deb09bce65760",
+      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./GovernorVotes.sol",
+        "../../utils/Checkpoints.sol",
+        "../../utils/math/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "GovernorVotesQuorumFraction"
+      ]
+    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\interfaces\\IERC5805.sol": {
       "lastModificationDate": 1720416594075,
       "contentHash": "78962c5ba0fec9f6cad8f71cf96ae30b",
@@ -2178,10 +2532,10 @@
         "IVotes"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Votes.sol": {
-      "lastModificationDate": 1720416587878,
-      "contentHash": "c093956f6e012e5967f5377362a91c23",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Checkpoints.sol": {
+      "lastModificationDate": 1720416576837,
+      "contentHash": "92dd35130224b0240e03fdda054a6b77",
+      "sourceName": "@openzeppelin/contracts/utils/Checkpoints.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -2208,17 +2562,300 @@
         }
       },
       "imports": [
-        "./ERC20Permit.sol",
-        "../../../interfaces/IERC5805.sol",
-        "../../../utils/math/Math.sol",
-        "../../../utils/math/SafeCast.sol",
-        "../../../utils/cryptography/ECDSA.sol"
+        "./math/Math.sol",
+        "./math/SafeCast.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
       "artifacts": [
-        "ERC20Votes"
+        "Checkpoints"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
+      "lastModificationDate": 1720416592083,
+      "contentHash": "95602b04f0b53f1139f4668d123ddeb7",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./IERC721.sol",
+        "./IERC721Receiver.sol",
+        "./extensions/IERC721Metadata.sol",
+        "../../utils/Address.sol",
+        "../../utils/Context.sol",
+        "../../utils/Strings.sol",
+        "../../utils/introspection/ERC165.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
+      "lastModificationDate": 1720416594098,
+      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
+      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../IERC721.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IERC721Metadata"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\EFC.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "0d31c2c9f96aa03b033a0704b80c6a94",
+      "sourceName": "contracts/tokens/EFC.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./ERC721WeightedVotes.sol",
+        "./interfaces/IEFC.sol",
+        "../libraries/ReentrancyGuard.sol",
+        "../governance/Governable.sol",
+        "../farming/interfaces/IRewardFarmCallback.sol",
+        "../staking/interfaces/IFeeDistributorCallback.sol",
+        "@openzeppelin/contracts/governance/utils/Votes.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "EFC"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\staking\\interfaces\\IFeeDistributorCallback.sol": {
+      "lastModificationDate": 1720416348649,
+      "contentHash": "bfd06dbcb81eb982bb89fc01d9e56300",
+      "sourceName": "contracts/staking/interfaces/IFeeDistributorCallback.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "IFeeDistributorCallback"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\ERC721WeightedVotes.sol": {
+      "lastModificationDate": 1720416348655,
+      "contentHash": "9f6c48c07039e38af21eb620a1eb3e08",
+      "sourceName": "contracts/tokens/ERC721WeightedVotes.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/governance/utils/Votes.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC721WeightedVotes"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\utils\\Votes.sol": {
+      "lastModificationDate": 1720416594483,
+      "contentHash": "4ef7a3f23c71033079fa69cb2453eab0",
+      "sourceName": "@openzeppelin/contracts/governance/utils/Votes.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../../interfaces/IERC5805.sol",
+        "../../utils/Context.sol",
+        "../../utils/Counters.sol",
+        "../../utils/Checkpoints.sol",
+        "../../utils/cryptography/EIP712.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Votes"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
+      "lastModificationDate": 1720416578941,
+      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
+      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "Counters"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Permit.sol": {
@@ -2303,43 +2940,6 @@
       ],
       "artifacts": [
         "ERC20"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Counters.sol": {
-      "lastModificationDate": 1720416578941,
-      "contentHash": "74654e3ae5d7f39555055dfe244dab7a",
-      "sourceName": "@openzeppelin/contracts/utils/Counters.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Counters"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\IERC20Metadata.sol": {
@@ -2629,43 +3229,6 @@
         "M"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\staking\\interfaces\\IFeeDistributorCallback.sol": {
-      "lastModificationDate": 1720416348649,
-      "contentHash": "bfd06dbcb81eb982bb89fc01d9e56300",
-      "sourceName": "contracts/staking/interfaces/IFeeDistributorCallback.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IFeeDistributorCallback"
-      ]
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\SqrtPriceMath.sol": {
       "lastModificationDate": 1720416594190,
       "contentHash": "ea5ac26ec4942f280cfa1de2fc368c14",
@@ -2706,43 +3269,6 @@
       ],
       "artifacts": [
         "SqrtPriceMath"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\TickMath.sol": {
-      "lastModificationDate": 1720416594214,
-      "contentHash": "a5764c6a1787b73b1bde7b9884e45822",
-      "sourceName": "@uniswap/v4-core/contracts/libraries/TickMath.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "TickMath"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\math\\SafeMath.sol": {
@@ -2821,6 +3347,117 @@
         "ERC721Holder"
       ]
     },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\TickMath.sol": {
+      "lastModificationDate": 1720416594214,
+      "contentHash": "a5764c6a1787b73b1bde7b9884e45822",
+      "sourceName": "@uniswap/v4-core/contracts/libraries/TickMath.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "TickMath"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\UnsafeMath.sol": {
+      "lastModificationDate": 1720416594217,
+      "contentHash": "2fd744d4d8034e828e43d4e7cd79485d",
+      "sourceName": "@uniswap/v4-core/contracts/libraries/UnsafeMath.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "UnsafeMath"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\FullMath.sol": {
+      "lastModificationDate": 1720416594083,
+      "contentHash": "0d30542759085b67c00d7597cd7ca307",
+      "sourceName": "@uniswap/v4-core/contracts/libraries/FullMath.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [],
+      "versionPragmas": [
+        "^0.8.20"
+      ],
+      "artifacts": [
+        "FullMath"
+      ]
+    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\SafeCast.sol": {
       "lastModificationDate": 1720416594183,
       "contentHash": "2c56bd3bb46889b72036eb7cf2f7c9d1",
@@ -2895,80 +3532,6 @@
         "FixedPoint96"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\FullMath.sol": {
-      "lastModificationDate": 1720416594083,
-      "contentHash": "0d30542759085b67c00d7597cd7ca307",
-      "sourceName": "@uniswap/v4-core/contracts/libraries/FullMath.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "FullMath"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@uniswap\\v4-core\\contracts\\libraries\\UnsafeMath.sol": {
-      "lastModificationDate": 1720416594217,
-      "contentHash": "2fd744d4d8034e828e43d4e7cd79485d",
-      "sourceName": "@uniswap/v4-core/contracts/libraries/UnsafeMath.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.20"
-      ],
-      "artifacts": [
-        "UnsafeMath"
-      ]
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Burnable.sol": {
       "lastModificationDate": 1720416582588,
       "contentHash": "a1c7f80ae26f5b2d7d563475627fbf25",
@@ -3009,258 +3572,10 @@
         "ERC20Burnable"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\ERC721.sol": {
-      "lastModificationDate": 1720416592083,
-      "contentHash": "95602b04f0b53f1139f4668d123ddeb7",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./IERC721.sol",
-        "./IERC721Receiver.sol",
-        "./extensions/IERC721Metadata.sol",
-        "../../utils/Address.sol",
-        "../../utils/Context.sol",
-        "../../utils/Strings.sol",
-        "../../utils/introspection/ERC165.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC721\\extensions\\IERC721Metadata.sol": {
-      "lastModificationDate": 1720416594098,
-      "contentHash": "efbc0d15b80a74e34dbe8da0f3e879bb",
-      "sourceName": "@openzeppelin/contracts/token/ERC721/extensions/IERC721Metadata.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../IERC721.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IERC721Metadata"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorVotes.sol": {
-      "lastModificationDate": 1720416593216,
-      "contentHash": "9d21e1da315e8e4d9e5962a25eac0c69",
-      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../Governor.sol",
-        "../../interfaces/IERC5805.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorVotes"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorVotesQuorumFraction.sol": {
-      "lastModificationDate": 1720416593244,
-      "contentHash": "d8f2eb542aaa4fc25d2deb09bce65760",
-      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./GovernorVotes.sol",
-        "../../utils/Checkpoints.sol",
-        "../../utils/math/SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorVotesQuorumFraction"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\utils\\Checkpoints.sol": {
-      "lastModificationDate": 1720416576837,
-      "contentHash": "92dd35130224b0240e03fdda054a6b77",
-      "sourceName": "@openzeppelin/contracts/utils/Checkpoints.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./math/Math.sol",
-        "./math/SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Checkpoints"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\utils\\Votes.sol": {
-      "lastModificationDate": 1720416594483,
-      "contentHash": "4ef7a3f23c71033079fa69cb2453eab0",
-      "sourceName": "@openzeppelin/contracts/governance/utils/Votes.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../../interfaces/IERC5805.sol",
-        "../../utils/Context.sol",
-        "../../utils/Counters.sol",
-        "../../utils/Checkpoints.sol",
-        "../../utils/cryptography/EIP712.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "Votes"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockPositionManager.sol": {
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\veEQU.sol": {
       "lastModificationDate": 1720416999620,
-      "contentHash": "49e097f536bd372f57ef249a297c2a8d",
-      "sourceName": "contracts/test/MockPositionManager.sol",
+      "contentHash": "8584f3b1ac9f9fa5cf72b2c9b498b527",
+      "sourceName": "contracts/tokens/veEQU.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -3287,21 +3602,21 @@
         }
       },
       "imports": [
-        "../staking/interfaces/IUniswapV3Minimum.sol",
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/utils/Counters.sol"
+        "./MultiMinter.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
+        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol"
       ],
       "versionPragmas": [
         "=0.8.24"
       ],
       "artifacts": [
-        "MockPositionManager"
+        "veEQU"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockUniswapV3PoolFactory.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "c9b395027778a7ae4eeec3f3bf676fb0",
-      "sourceName": "contracts/test/MockUniswapV3PoolFactory.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\MultiMinter.sol": {
+      "lastModificationDate": 1720416348656,
+      "contentHash": "9788f26326713789a3ae98a516b9683d",
+      "sourceName": "contracts/tokens/MultiMinter.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -3328,19 +3643,19 @@
         }
       },
       "imports": [
-        "../staking/interfaces/IUniswapV3Minimum.sol"
+        "../governance/Governable.sol"
       ],
       "versionPragmas": [
-        "=0.8.24"
+        "^0.8.0"
       ],
       "artifacts": [
-        "MockUniswapV3PoolFactory"
+        "MultiMinter"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockUniswapV3Pool.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "5c815fefa6f7b972651cb0ae01b82730",
-      "sourceName": "contracts/test/MockUniswapV3Pool.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\ERC20Votes.sol": {
+      "lastModificationDate": 1720416587878,
+      "contentHash": "c093956f6e012e5967f5377362a91c23",
+      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -3367,13 +3682,145 @@
         }
       },
       "imports": [
-        "../staking/interfaces/IUniswapV3Minimum.sol"
+        "./ERC20Permit.sol",
+        "../../../interfaces/IERC5805.sol",
+        "../../../utils/math/Math.sol",
+        "../../../utils/math/SafeCast.sol",
+        "../../../utils/cryptography/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "ERC20Votes"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\EFCGovernor.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "3678e5df63fd3133ba1de1fc3701c5cc",
+      "sourceName": "contracts/governance/EFCGovernor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./interfaces/IEFCGovernor.sol",
+        "./interfaces/IEQUGovernor.sol",
+        "@openzeppelin/contracts/governance/Governor.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
+        "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
       ],
       "versionPragmas": [
         "=0.8.24"
       ],
       "artifacts": [
-        "MockUniswapV3Pool"
+        "EFCGovernor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\farming\\PositionFarmRewardDistributor.sol": {
+      "lastModificationDate": 1720416999621,
+      "contentHash": "ee7620e98b16b22a250e91aef3a3cc76",
+      "sourceName": "contracts/farming/PositionFarmRewardDistributor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../governance/Governable.sol",
+        "@openzeppelin/contracts/utils/Address.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
+        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "PositionFarmRewardDistributor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\plugins\\RewardCollectorV2.sol": {
+      "lastModificationDate": 1720416999621,
+      "contentHash": "02c73a04251f5b935489eb42e6939a4a",
+      "sourceName": "contracts/plugins/RewardCollectorV2.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./RewardCollector.sol",
+        "../farming/PositionFarmRewardDistributor.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "RewardCollectorV2"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\plugins\\RewardCollector.sol": {
@@ -3583,83 +4030,6 @@
       ],
       "artifacts": [
         "PoolIndexer"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\types\\PackedValue.sol": {
-      "lastModificationDate": 1720416348657,
-      "contentHash": "c6d04598f2b61d909969039b054df664",
-      "sourceName": "contracts/types/PackedValue.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": []
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\farming\\PositionFarmRewardDistributor.sol": {
-      "lastModificationDate": 1720416999621,
-      "contentHash": "ee7620e98b16b22a250e91aef3a3cc76",
-      "sourceName": "contracts/farming/PositionFarmRewardDistributor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../governance/Governable.sol",
-        "@openzeppelin/contracts/utils/Address.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol",
-        "@openzeppelin/contracts/utils/cryptography/ECDSA.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "PositionFarmRewardDistributor"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\plugins\\OrderBookAssistant.sol": {
@@ -3899,6 +4269,164 @@
         "IPositionRouter"
       ]
     },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockFeeDistributorCallback.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "e1610d7c236134eb27c0f987c888214c",
+      "sourceName": "contracts/test/MockFeeDistributorCallback.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../staking/interfaces/IFeeDistributorCallback.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MockFeeDistributorCallback"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockUniswapV3PoolFactory.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "c9b395027778a7ae4eeec3f3bf676fb0",
+      "sourceName": "contracts/test/MockUniswapV3PoolFactory.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../staking/interfaces/IUniswapV3Minimum.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MockUniswapV3PoolFactory"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockUniswapV3Pool.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "5c815fefa6f7b972651cb0ae01b82730",
+      "sourceName": "contracts/test/MockUniswapV3Pool.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../staking/interfaces/IUniswapV3Minimum.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MockUniswapV3Pool"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockPositionManager.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "49e097f536bd372f57ef249a297c2a8d",
+      "sourceName": "contracts/test/MockPositionManager.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../staking/interfaces/IUniswapV3Minimum.sol",
+        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
+        "@openzeppelin/contracts/utils/Counters.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MockPositionManager"
+      ]
+    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\plugins\\Liquidator.sol": {
       "lastModificationDate": 1720416999621,
       "contentHash": "3b65529581c3b4aa00189ab6a6547761",
@@ -4108,86 +4636,6 @@
         "PriceFeed"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\MultiMinter.sol": {
-      "lastModificationDate": 1720416348656,
-      "contentHash": "9788f26326713789a3ae98a516b9683d",
-      "sourceName": "contracts/tokens/MultiMinter.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../governance/Governable.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "MultiMinter"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\veEQU.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "8584f3b1ac9f9fa5cf72b2c9b498b527",
-      "sourceName": "contracts/tokens/veEQU.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./MultiMinter.sol",
-        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Votes.sol",
-        "@openzeppelin/contracts/token/ERC20/extensions/ERC20Burnable.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "veEQU"
-      ]
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\EQU.sol": {
       "lastModificationDate": 1720416999620,
       "contentHash": "5078e825aa76ddc1aa122438246d8727",
@@ -4268,10 +4716,10 @@
         "ERC20Capped"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\token\\ERC20\\extensions\\draft-ERC20Permit.sol": {
-      "lastModificationDate": 1720416581131,
-      "contentHash": "0ebe4a60af340ba617d3fb68db43c990",
-      "sourceName": "@openzeppelin/contracts/token/ERC20/extensions/draft-ERC20Permit.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockRouter.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "f562c76137d54438e7cfc3d7d201f94a",
+      "sourceName": "contracts/test/MockRouter.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -4298,17 +4746,61 @@
         }
       },
       "imports": [
-        "./ERC20Permit.sol"
+        "../core/Pool.sol",
+        "../governance/Governable.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "GasDrainingMockRouter",
+        "MockRouter"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\PoolUtil.sol": {
+      "lastModificationDate": 1720416348638,
+      "contentHash": "bb67f6d0245bfddb9569cad03ec0665a",
+      "sourceName": "contracts/libraries/PoolUtil.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./Constants.sol",
+        "../core/interfaces/IPoolFactory.sol"
       ],
       "versionPragmas": [
         "^0.8.0"
       ],
-      "artifacts": []
+      "artifacts": [
+        "PoolUtil"
+      ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\EFC.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "0d31c2c9f96aa03b033a0704b80c6a94",
-      "sourceName": "contracts/tokens/EFC.sol",
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\PriceUtil.sol": {
+      "lastModificationDate": 1720416348638,
+      "contentHash": "21743b56209a08778bcda162fddf163e",
+      "sourceName": "contracts/libraries/PriceUtil.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -4335,65 +4827,141 @@
         }
       },
       "imports": [
-        "./ERC721WeightedVotes.sol",
-        "./interfaces/IEFC.sol",
+        "./LiquidityPositionUtil.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "PriceUtil"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\FundingRateUtil.sol": {
+      "lastModificationDate": 1720416348637,
+      "contentHash": "11c40c3f6bd6518008a73c731593f482",
+      "sourceName": "contracts/libraries/FundingRateUtil.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PositionUtil.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "FundingRateUtil"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\LiquidityPositionUtil.sol": {
+      "lastModificationDate": 1720416348637,
+      "contentHash": "7d993f6b7e8a3d8a68330f0d7dd31368",
+      "sourceName": "contracts/libraries/LiquidityPositionUtil.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "./PositionUtil.sol"
+      ],
+      "versionPragmas": [
+        "^0.8.0"
+      ],
+      "artifacts": [
+        "LiquidityPositionUtil"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\farming\\RewardFarm.sol": {
+      "lastModificationDate": 1720416999621,
+      "contentHash": "5526dbeaf3780adeff3ce9cceeb43170",
+      "sourceName": "contracts/farming/RewardFarm.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/SafeCast.sol",
+        "../libraries/Constants.sol",
         "../libraries/ReentrancyGuard.sol",
-        "../governance/Governable.sol",
-        "../farming/interfaces/IRewardFarmCallback.sol",
-        "../staking/interfaces/IFeeDistributorCallback.sol",
-        "@openzeppelin/contracts/governance/utils/Votes.sol"
+        "../libraries/Math.sol",
+        "../core/interfaces/IPoolFactory.sol",
+        "@openzeppelin/contracts/utils/Address.sol"
       ],
       "versionPragmas": [
         "=0.8.24"
       ],
       "artifacts": [
-        "EFC"
+        "RewardFarm"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\tokens\\ERC721WeightedVotes.sol": {
-      "lastModificationDate": 1720416348655,
-      "contentHash": "9f6c48c07039e38af21eb620a1eb3e08",
-      "sourceName": "contracts/tokens/ERC721WeightedVotes.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/token/ERC721/ERC721.sol",
-        "@openzeppelin/contracts/governance/utils/Votes.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "ERC721WeightedVotes"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockFeeDistributorCallback.sol": {
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\PriceUtilTest.sol": {
       "lastModificationDate": 1720416999620,
-      "contentHash": "e1610d7c236134eb27c0f987c888214c",
-      "sourceName": "contracts/test/MockFeeDistributorCallback.sol",
+      "contentHash": "e2aa2012e871de4cd37cd9103c2fec87",
+      "sourceName": "contracts/test/PriceUtilTest.sol",
       "solcConfig": {
         "version": "0.8.24",
         "settings": {
@@ -4420,13 +4988,267 @@
         }
       },
       "imports": [
-        "../staking/interfaces/IFeeDistributorCallback.sol"
+        "../libraries/PriceUtil.sol",
+        "../core/interfaces/IPoolFactory.sol"
       ],
       "versionPragmas": [
         "=0.8.24"
       ],
       "artifacts": [
-        "MockFeeDistributorCallback"
+        "PriceUtilTest"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\LiquidityPositionUtilTest.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "9bd3daeffb67c183111d21469549df08",
+      "sourceName": "contracts/test/LiquidityPositionUtilTest.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/LiquidityPositionUtil.sol",
+        "../core/interfaces/IPoolLiquidityPosition.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "LiquidityPositionUtilTest"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\PositionUtilTest.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "6e2befb36dae000a2d72f4cbb2277822",
+      "sourceName": "contracts/test/PositionUtilTest.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/PositionUtil.sol",
+        "../core/interfaces/IPoolPosition.sol",
+        "../core/interfaces/IPoolLiquidityPosition.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "PositionUtilTest"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\FundingRateUtilTest.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "d524a62aeae4658327ac34544421d6f7",
+      "sourceName": "contracts/test/FundingRateUtilTest.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../libraries/FundingRateUtil.sol",
+        "../core/interfaces/IPoolPosition.sol",
+        "../core/interfaces/IPoolLiquidityPosition.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "FundingRateUtilTest"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\TokenVertexUpdaterGovernor.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "5a7c707675e0f56242328060cad3373f",
+      "sourceName": "contracts/governance/TokenVertexUpdaterGovernor.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "@openzeppelin/contracts/access/AccessControl.sol",
+        "@openzeppelin/contracts/utils/Multicall.sol",
+        "../core/interfaces/IPoolFactory.sol",
+        "../types/PackedValue.sol",
+        "../core/interfaces/IConfigurable.sol",
+        "../libraries/Constants.sol",
+        "../libraries/SafeCast.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "TokenVertexUpdaterGovernor"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\misc\\MixedExecutorV2.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "65fe0efa3eb92a1248cf9a91b0d0fc4d",
+      "sourceName": "contracts/misc/MixedExecutorV2.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../governance/Governable.sol",
+        "../core/PoolIndexer.sol",
+        "../types/PackedValue.sol",
+        "../oracle/interfaces/IPriceFeed.sol",
+        "../plugins/interfaces/IOrderBook.sol",
+        "../plugins/interfaces/ILiquidator.sol",
+        "../plugins/interfaces/IPositionRouter.sol",
+        "@openzeppelin/contracts/utils/Multicall.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MixedExecutorV2"
+      ]
+    },
+    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockPool.sol": {
+      "lastModificationDate": 1720416999620,
+      "contentHash": "69c6f386873ad237d2c3fac94d1ad094",
+      "sourceName": "contracts/test/MockPool.sol",
+      "solcConfig": {
+        "version": "0.8.24",
+        "settings": {
+          "evmVersion": "paris",
+          "viaIR": true,
+          "optimizer": {
+            "enabled": true,
+            "runs": 100000000
+          },
+          "outputSelection": {
+            "*": {
+              "*": [
+                "abi",
+                "evm.bytecode",
+                "evm.deployedBytecode",
+                "evm.methodIdentifiers",
+                "metadata"
+              ],
+              "": [
+                "ast"
+              ]
+            }
+          }
+        }
+      },
+      "imports": [
+        "../types/Side.sol",
+        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
+      ],
+      "versionPragmas": [
+        "=0.8.24"
+      ],
+      "artifacts": [
+        "MockPool"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockRewardFarmCallback.sol": {
@@ -4505,541 +5327,6 @@
       ],
       "artifacts": [
         "MockEFC"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockPool.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "69c6f386873ad237d2c3fac94d1ad094",
-      "sourceName": "contracts/test/MockPool.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../types/Side.sol",
-        "@openzeppelin/contracts/token/ERC20/IERC20.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "MockPool"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\PositionUtilTest.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "6e2befb36dae000a2d72f4cbb2277822",
-      "sourceName": "contracts/test/PositionUtilTest.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../libraries/PositionUtil.sol",
-        "../core/interfaces/IPoolPosition.sol",
-        "../core/interfaces/IPoolLiquidityPosition.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "PositionUtilTest"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\LiquidityPositionUtilTest.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "9bd3daeffb67c183111d21469549df08",
-      "sourceName": "contracts/test/LiquidityPositionUtilTest.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../libraries/LiquidityPositionUtil.sol",
-        "../core/interfaces/IPoolLiquidityPosition.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "LiquidityPositionUtilTest"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\LiquidityPositionUtil.sol": {
-      "lastModificationDate": 1720416348637,
-      "contentHash": "7d993f6b7e8a3d8a68330f0d7dd31368",
-      "sourceName": "contracts/libraries/LiquidityPositionUtil.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./PositionUtil.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "LiquidityPositionUtil"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\PriceUtil.sol": {
-      "lastModificationDate": 1720416348638,
-      "contentHash": "21743b56209a08778bcda162fddf163e",
-      "sourceName": "contracts/libraries/PriceUtil.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./LiquidityPositionUtil.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "PriceUtil"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\PriceUtilTest.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "e2aa2012e871de4cd37cd9103c2fec87",
-      "sourceName": "contracts/test/PriceUtilTest.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../libraries/PriceUtil.sol",
-        "../core/interfaces/IPoolFactory.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "PriceUtilTest"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\PoolUtil.sol": {
-      "lastModificationDate": 1720416348638,
-      "contentHash": "bb67f6d0245bfddb9569cad03ec0665a",
-      "sourceName": "contracts/libraries/PoolUtil.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./Constants.sol",
-        "../core/interfaces/IPoolFactory.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "PoolUtil"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\TokenVertexUpdaterGovernor.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "5a7c707675e0f56242328060cad3373f",
-      "sourceName": "contracts/governance/TokenVertexUpdaterGovernor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/access/AccessControl.sol",
-        "@openzeppelin/contracts/utils/Multicall.sol",
-        "../core/interfaces/IPoolFactory.sol",
-        "../types/PackedValue.sol",
-        "../core/interfaces/IConfigurable.sol",
-        "../libraries/Constants.sol",
-        "../libraries/SafeCast.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "TokenVertexUpdaterGovernor"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\farming\\RewardFarm.sol": {
-      "lastModificationDate": 1720416999621,
-      "contentHash": "5526dbeaf3780adeff3ce9cceeb43170",
-      "sourceName": "contracts/farming/RewardFarm.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../libraries/SafeCast.sol",
-        "../libraries/Constants.sol",
-        "../libraries/ReentrancyGuard.sol",
-        "../libraries/Math.sol",
-        "../core/interfaces/IPoolFactory.sol",
-        "@openzeppelin/contracts/utils/Address.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "RewardFarm"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\MockRouter.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "f562c76137d54438e7cfc3d7d201f94a",
-      "sourceName": "contracts/test/MockRouter.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../core/Pool.sol",
-        "../governance/Governable.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "GasDrainingMockRouter",
-        "MockRouter"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\libraries\\FundingRateUtil.sol": {
-      "lastModificationDate": 1720416348637,
-      "contentHash": "11c40c3f6bd6518008a73c731593f482",
-      "sourceName": "contracts/libraries/FundingRateUtil.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./PositionUtil.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "FundingRateUtil"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\FundingRateUtilTest.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "d524a62aeae4658327ac34544421d6f7",
-      "sourceName": "contracts/test/FundingRateUtilTest.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../libraries/FundingRateUtil.sol",
-        "../core/interfaces/IPoolPosition.sol",
-        "../core/interfaces/IPoolLiquidityPosition.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "FundingRateUtilTest"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\misc\\MixedExecutorV2.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "65fe0efa3eb92a1248cf9a91b0d0fc4d",
-      "sourceName": "contracts/misc/MixedExecutorV2.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../governance/Governable.sol",
-        "../core/PoolIndexer.sol",
-        "../types/PackedValue.sol",
-        "../oracle/interfaces/IPriceFeed.sol",
-        "../plugins/interfaces/IOrderBook.sol",
-        "../plugins/interfaces/ILiquidator.sol",
-        "../plugins/interfaces/IPositionRouter.sol",
-        "@openzeppelin/contracts/utils/Multicall.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "MixedExecutorV2"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\GovernableTest.sol": {
@@ -5125,46 +5412,6 @@
         "MixedExecutor"
       ]
     },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\plugins\\RewardCollectorV2.sol": {
-      "lastModificationDate": 1720416999621,
-      "contentHash": "02c73a04251f5b935489eb42e6939a4a",
-      "sourceName": "contracts/plugins/RewardCollectorV2.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./RewardCollector.sol",
-        "../farming/PositionFarmRewardDistributor.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "RewardCollectorV2"
-      ]
-    },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\misc\\ExecutorAssistant.sol": {
       "lastModificationDate": 1720416999621,
       "contentHash": "ab4566985f94698f3ed17551fbe82fde",
@@ -5244,253 +5491,6 @@
       ],
       "artifacts": [
         "EquationTimelockController"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\EQUGovernor.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "60ab9f9e9308110771185cd11be251de",
-      "sourceName": "contracts/governance/EQUGovernor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./interfaces/IEFCGovernor.sol",
-        "./interfaces/IEQUGovernor.sol",
-        "@openzeppelin/contracts/governance/Governor.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "EQUGovernor"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\interfaces\\IEFCGovernor.sol": {
-      "lastModificationDate": 1720416348636,
-      "contentHash": "312c3c617a686fbf6aeb76a433156af9",
-      "sourceName": "contracts/governance/interfaces/IEFCGovernor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/governance/IGovernor.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IEFCGovernor"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\interfaces\\IEQUGovernor.sol": {
-      "lastModificationDate": 1720416348636,
-      "contentHash": "24595312c983eeb99adc2a8354e578ec",
-      "sourceName": "contracts/governance/interfaces/IEQUGovernor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "@openzeppelin/contracts/governance/IGovernor.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "IEQUGovernor"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorSettings.sol": {
-      "lastModificationDate": 1720416593173,
-      "contentHash": "80ac7eb356eca556a3023dc3848fb40a",
-      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../Governor.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorSettings"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\node_modules\\@openzeppelin\\contracts\\governance\\extensions\\GovernorCountingSimple.sol": {
-      "lastModificationDate": 1720416593129,
-      "contentHash": "15aeb0f6f9276254f8d58e65a678ea3f",
-      "sourceName": "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "../Governor.sol"
-      ],
-      "versionPragmas": [
-        "^0.8.0"
-      ],
-      "artifacts": [
-        "GovernorCountingSimple"
-      ]
-    },
-    "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\governance\\EFCGovernor.sol": {
-      "lastModificationDate": 1720416999620,
-      "contentHash": "3678e5df63fd3133ba1de1fc3701c5cc",
-      "sourceName": "contracts/governance/EFCGovernor.sol",
-      "solcConfig": {
-        "version": "0.8.24",
-        "settings": {
-          "evmVersion": "paris",
-          "viaIR": true,
-          "optimizer": {
-            "enabled": true,
-            "runs": 100000000
-          },
-          "outputSelection": {
-            "*": {
-              "*": [
-                "abi",
-                "evm.bytecode",
-                "evm.deployedBytecode",
-                "evm.methodIdentifiers",
-                "metadata"
-              ],
-              "": [
-                "ast"
-              ]
-            }
-          }
-        }
-      },
-      "imports": [
-        "./interfaces/IEFCGovernor.sol",
-        "./interfaces/IEQUGovernor.sol",
-        "@openzeppelin/contracts/governance/Governor.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorSettings.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorCountingSimple.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotes.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorVotesQuorumFraction.sol",
-        "@openzeppelin/contracts/governance/extensions/GovernorTimelockControl.sol"
-      ],
-      "versionPragmas": [
-        "=0.8.24"
-      ],
-      "artifacts": [
-        "EFCGovernor"
       ]
     },
     "E:\\Blockchain\\Solidity\\Tailwan\\Old\\test-v1\\contracts\\test\\ERC20Test.sol": {

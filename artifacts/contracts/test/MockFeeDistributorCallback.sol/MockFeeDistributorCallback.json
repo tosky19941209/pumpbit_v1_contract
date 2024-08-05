@@ -1,0 +1,37 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockFeeDistributorCallback",
+  "sourceName": "contracts/test/MockFeeDistributorCallback.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_tokenID",
+          "type": "uint256"
+        }
+      ],
+      "name": "onMintArchitect",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "tokenID",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346100155760d9908161001b8239f35b600080fdfe6080806040526004361015601257600080fd5b600090813560e01c806354f80bb114606a5763a5c42ef114603257600080fd5b34606657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112606657602091548152f35b5080fd5b823460a05760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011260a057600435815580f35b80fdfea26469706673582212208e9d714e18d3219db7383dee76ded710827ace0a1efc4c20d01feee8a0fef66664736f6c63430008180033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c806354f80bb114606a5763a5c42ef114603257600080fd5b34606657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112606657602091548152f35b5080fd5b823460a05760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011260a057600435815580f35b80fdfea26469706673582212208e9d714e18d3219db7383dee76ded710827ace0a1efc4c20d01feee8a0fef66664736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

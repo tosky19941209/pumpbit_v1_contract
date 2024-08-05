@@ -1,0 +1,135 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockRewardFarm",
+  "sourceName": "contracts/test/MockRewardFarm.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "contract IPool[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "collectLiquidityRewardBatch",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "rewardDebt",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "collectReferralReward",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "rewardDebt",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract IPool[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "uint256[]",
+          "name": "",
+          "type": "uint256[]"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "collectReferralRewardBatch",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "rewardDebt",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "contract IPool[]",
+          "name": "",
+          "type": "address[]"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "collectRiskBufferFundRewardBatch",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "rewardDebt",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "rewardDebtRes",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x60808060405234610016576102c0908161001c8239f35b600080fdfe608060408181526004908136101561001657600080fd5b600092833560e01c9081630de759e814610138575080632af44d0414610117578063563f2333146100f657806357b7c3d4146100b7576397b2e5f31461005b57600080fd5b346100b357807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100b35760243573ffffffffffffffffffffffffffffffffffffffff8116036100b357816020935551908152f35b8280fd5b8382346100f257817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100f257602091549051908152f35b5080fd5b8382346100f257600260209261010b3661020d565b50505050555160028152f35b8382346100f257600160209261012c3661020d565b50505050555160018152f35b849084346100b35760607ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100b35767ffffffffffffffff9080358281116101d35761018a90369083016101d7565b50506024359182116101cf576101a2913691016101d7565b505060443573ffffffffffffffffffffffffffffffffffffffff8116036100f25760036020925560038152f35b8380fd5b8480fd5b9181601f840112156102085782359167ffffffffffffffff8311610208576020808501948460051b01011161020857565b600080fd5b60607ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc820112610208576004359067ffffffffffffffff821161020857610256916004016101d7565b909173ffffffffffffffffffffffffffffffffffffffff90602435828116810361020857916044359081168103610208579056fea264697066735822122084edbc774df09cee45215a030b589a2423aaf591ec30756e500631ccedc486db64736f6c63430008180033",
+  "deployedBytecode": "0x608060408181526004908136101561001657600080fd5b600092833560e01c9081630de759e814610138575080632af44d0414610117578063563f2333146100f657806357b7c3d4146100b7576397b2e5f31461005b57600080fd5b346100b357807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100b35760243573ffffffffffffffffffffffffffffffffffffffff8116036100b357816020935551908152f35b8280fd5b8382346100f257817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100f257602091549051908152f35b5080fd5b8382346100f257600260209261010b3661020d565b50505050555160028152f35b8382346100f257600160209261012c3661020d565b50505050555160018152f35b849084346100b35760607ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100b35767ffffffffffffffff9080358281116101d35761018a90369083016101d7565b50506024359182116101cf576101a2913691016101d7565b505060443573ffffffffffffffffffffffffffffffffffffffff8116036100f25760036020925560038152f35b8380fd5b8480fd5b9181601f840112156102085782359167ffffffffffffffff8311610208576020808501948460051b01011161020857565b600080fd5b60607ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc820112610208576004359067ffffffffffffffff821161020857610256916004016101d7565b909173ffffffffffffffffffffffffffffffffffffffff90602435828116810361020857916044359081168103610208579056fea264697066735822122084edbc774df09cee45215a030b589a2423aaf591ec30756e500631ccedc486db64736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

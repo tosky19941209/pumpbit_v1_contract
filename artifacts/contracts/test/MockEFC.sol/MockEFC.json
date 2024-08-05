@@ -1,0 +1,227 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockEFC",
+  "sourceName": "contracts/test/MockEFC.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "code",
+          "type": "bytes32"
+        }
+      ],
+      "name": "bindCode",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "connectorTokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "bindConnectorTokenId",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [],
+      "name": "callback",
+      "outputs": [
+        {
+          "internalType": "contract IRewardFarmCallback",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "bytes32",
+          "name": "",
+          "type": "bytes32"
+        }
+      ],
+      "name": "codeTokens",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "name": "connectorTokenIds",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "_capPerConnectorCanMint",
+          "type": "uint256"
+        },
+        {
+          "internalType": "contract IRewardFarmCallback",
+          "name": "_callback",
+          "type": "address"
+        }
+      ],
+      "name": "initialize",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "ownerOf",
+      "outputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        }
+      ],
+      "name": "refereeTokens",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "referee",
+          "type": "address"
+        }
+      ],
+      "name": "referrerTokens",
+      "outputs": [
+        {
+          "internalType": "uint256",
+          "name": "_memberTokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "_connectorTokenId",
+          "type": "uint256"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes32",
+          "name": "code",
+          "type": "bytes32"
+        }
+      ],
+      "name": "registerCode",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        },
+        {
+          "internalType": "address",
+          "name": "owner",
+          "type": "address"
+        }
+      ],
+      "name": "setOwner",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "referee",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "tokenId",
+          "type": "uint256"
+        }
+      ],
+      "name": "setRefereeTokens",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610699908161001c8239f35b600080fdfe6080604081815260048036101561001557600080fd5b600092833560e01c908163083b27321461055b575080631e54b2ee1461050a57806328bcf879146103dd5780632be9dbf51461039857806341e61b03146103575780634235c4e2146102fb5780634c7da8a0146102b65780636352211e1461025b5780637fd39247146101cf578063bd993dfc1461018e578063da35a26f1461010a5763e9dab583146100a757600080fd5b346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010657602092829173ffffffffffffffffffffffffffffffffffffffff6100f86105ab565b168252845220549051908152f35b8280fd5b509034610106577ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261018a576024359073ffffffffffffffffffffffffffffffffffffffff8216809203610106573582557fffffffffffffffffffffffff0000000000000000000000000000000000000000600154161760015580f35b5080fd5b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065735825260056020526024359082205580f35b50903461010657807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610106576024359173ffffffffffffffffffffffffffffffffffffffff83168093036102565735835260026020528220907fffffffffffffffffffffffff000000000000000000000000000000000000000082541617905580f35b600080fd5b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610106578160209373ffffffffffffffffffffffffffffffffffffffff92358152600285522054169051908152f35b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760209282913581526003845220549051908152f35b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065773ffffffffffffffffffffffffffffffffffffffff6103476105ab565b1683526020526024359082205580f35b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760243583526003602052359082205580f35b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760209282913581526005845220549051908152f35b5090346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065781358352600360205280832054913384528060205283828120848154915573ffffffffffffffffffffffffffffffffffffffff600154168183526005602052848320549186845285842054823b156105065760a49285918851998a9687957f24675390000000000000000000000000000000000000000000000000000000008752338b88015260248701526044860152606485015260848401525af180156104fc576104b8578380f35b67ffffffffffffffff83116104d05750523880808380f35b8360416024927f4e487b7100000000000000000000000000000000000000000000000000000000835252fd5b82513d86823e3d90fd5b8480fd5b8284346105585760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610558575061054c6105476105ab565b6105ce565b82519182526020820152f35b80fd5b84903461018a57817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261018a5760209073ffffffffffffffffffffffffffffffffffffffff600154168152f35b6004359073ffffffffffffffffffffffffffffffffffffffff8216820361025657565b9073ffffffffffffffffffffffffffffffffffffffff6000921682526004602052604082205491821561065d57805490811561063057507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd8f08301046103e80190565b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526012600452fd5b9150819056fea26469706673582212209e2b994a42b1ffc0da0d734908d8c5575f07e7b472c0c7e1c0bbab7d04c1b7f164736f6c63430008180033",
+  "deployedBytecode": "0x6080604081815260048036101561001557600080fd5b600092833560e01c908163083b27321461055b575080631e54b2ee1461050a57806328bcf879146103dd5780632be9dbf51461039857806341e61b03146103575780634235c4e2146102fb5780634c7da8a0146102b65780636352211e1461025b5780637fd39247146101cf578063bd993dfc1461018e578063da35a26f1461010a5763e9dab583146100a757600080fd5b346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261010657602092829173ffffffffffffffffffffffffffffffffffffffff6100f86105ab565b168252845220549051908152f35b8280fd5b509034610106577ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261018a576024359073ffffffffffffffffffffffffffffffffffffffff8216809203610106573582557fffffffffffffffffffffffff0000000000000000000000000000000000000000600154161760015580f35b5080fd5b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065735825260056020526024359082205580f35b50903461010657807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610106576024359173ffffffffffffffffffffffffffffffffffffffff83168093036102565735835260026020528220907fffffffffffffffffffffffff000000000000000000000000000000000000000082541617905580f35b600080fd5b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610106578160209373ffffffffffffffffffffffffffffffffffffffff92358152600285522054169051908152f35b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760209282913581526003845220549051908152f35b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065773ffffffffffffffffffffffffffffffffffffffff6103476105ab565b1683526020526024359082205580f35b503461010657817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760243583526003602052359082205580f35b50346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065760209282913581526005845220549051908152f35b5090346101065760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101065781358352600360205280832054913384528060205283828120848154915573ffffffffffffffffffffffffffffffffffffffff600154168183526005602052848320549186845285842054823b156105065760a49285918851998a9687957f24675390000000000000000000000000000000000000000000000000000000008752338b88015260248701526044860152606485015260848401525af180156104fc576104b8578380f35b67ffffffffffffffff83116104d05750523880808380f35b8360416024927f4e487b7100000000000000000000000000000000000000000000000000000000835252fd5b82513d86823e3d90fd5b8480fd5b8284346105585760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc360112610558575061054c6105476105ab565b6105ce565b82519182526020820152f35b80fd5b84903461018a57817ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc36011261018a5760209073ffffffffffffffffffffffffffffffffffffffff600154168152f35b6004359073ffffffffffffffffffffffffffffffffffffffff8216820361025657565b9073ffffffffffffffffffffffffffffffffffffffff6000921682526004602052604082205491821561065d57805490811561063057507fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffd8f08301046103e80190565b807f4e487b7100000000000000000000000000000000000000000000000000000000602492526012600452fd5b9150819056fea26469706673582212209e2b994a42b1ffc0da0d734908d8c5575f07e7b472c0c7e1c0bbab7d04c1b7f164736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

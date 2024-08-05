@@ -1,0 +1,45 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "ERC721Holder",
+  "sourceName": "@openzeppelin/contracts/token/ERC721/utils/ERC721Holder.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "address",
+          "name": "",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "",
+          "type": "uint256"
+        },
+        {
+          "internalType": "bytes",
+          "name": "",
+          "type": "bytes"
+        }
+      ],
+      "name": "onERC721Received",
+      "outputs": [
+        {
+          "internalType": "bytes4",
+          "name": "",
+          "type": "bytes4"
+        }
+      ],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346100165761019f908161001c8239f35b600080fdfe6080600436101561000f57600080fd5b600090813560e01c63150b7a021461002657600080fd5b346101615760807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101615773ffffffffffffffffffffffffffffffffffffffff600435818116036101655760243590811603610161576064359067ffffffffffffffff90818311610130573660238401121561013057826004013591808311610134577fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0603f81601f86011601168201908282109082111761013457604052818152366024838501011161013057816024602094018483013701015260206040517f150b7a02000000000000000000000000000000000000000000000000000000008152f35b8380fd5b6024857f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b5080fd5b8280fdfea264697066735822122059dfff2912c5d99705d59f81de74aaa7a35b542f2fdea8ed6b49c879afccb6e864736f6c63430008180033",
+  "deployedBytecode": "0x6080600436101561000f57600080fd5b600090813560e01c63150b7a021461002657600080fd5b346101615760807ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126101615773ffffffffffffffffffffffffffffffffffffffff600435818116036101655760243590811603610161576064359067ffffffffffffffff90818311610130573660238401121561013057826004013591808311610134577fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffe0603f81601f86011601168201908282109082111761013457604052818152366024838501011161013057816024602094018483013701015260206040517f150b7a02000000000000000000000000000000000000000000000000000000008152f35b8380fd5b6024857f4e487b710000000000000000000000000000000000000000000000000000000081526041600452fd5b5080fd5b8280fdfea264697066735822122059dfff2912c5d99705d59f81de74aaa7a35b542f2fdea8ed6b49c879afccb6e864736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

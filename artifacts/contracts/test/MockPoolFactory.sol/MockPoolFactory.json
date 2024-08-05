@@ -1,0 +1,43 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockPoolFactory",
+  "sourceName": "contracts/test/MockPoolFactory.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_account",
+          "type": "address"
+        }
+      ],
+      "name": "createPool",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "_pool",
+          "type": "address"
+        }
+      ],
+      "name": "isPool",
+      "outputs": [
+        {
+          "internalType": "bool",
+          "name": "",
+          "type": "bool"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x6080806040523461001657610166908161001c8239f35b600080fdfe608080604052600436101561001357600080fd5b600090813560e01c9081635b16ebb7146100c45750639049f9d21461003757600080fd5b346100c15760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100c15760043573ffffffffffffffffffffffffffffffffffffffff81168091036100bd578152806020526040812060017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0082541617905580f35b5080fd5b80fd5b9050346100bd5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100bd5760043573ffffffffffffffffffffffffffffffffffffffff811680910361012c5760408360ff926020955280855220541615158152f35b8280fdfea2646970667358221220a6d75267f1cb9cd1aeef0830e977df9cd118053f1449b3a78426cf08c832ed9964736f6c63430008180033",
+  "deployedBytecode": "0x608080604052600436101561001357600080fd5b600090813560e01c9081635b16ebb7146100c45750639049f9d21461003757600080fd5b346100c15760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100c15760043573ffffffffffffffffffffffffffffffffffffffff81168091036100bd578152806020526040812060017fffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffff0082541617905580f35b5080fd5b80fd5b9050346100bd5760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126100bd5760043573ffffffffffffffffffffffffffffffffffffffff811680910361012c5760408360ff926020955280855220541615158152f35b8280fdfea2646970667358221220a6d75267f1cb9cd1aeef0830e977df9cd118053f1449b3a78426cf08c832ed9964736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

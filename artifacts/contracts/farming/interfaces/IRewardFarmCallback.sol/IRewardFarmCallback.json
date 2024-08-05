@@ -1,0 +1,108 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IRewardFarmCallback",
+  "sourceName": "contracts/farming/interfaces/IRewardFarmCallback.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "referee",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "oldReferralToken",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "oldReferralParentToken",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "newReferralToken",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "newReferralParentToken",
+          "type": "uint256"
+        }
+      ],
+      "name": "onChangeReferralToken",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "int256",
+          "name": "liquidityDelta",
+          "type": "int256"
+        }
+      ],
+      "name": "onLiquidityPositionChanged",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "Side",
+          "name": "side",
+          "type": "uint8"
+        },
+        {
+          "internalType": "uint128",
+          "name": "sizeAfter",
+          "type": "uint128"
+        },
+        {
+          "internalType": "uint160",
+          "name": "entryPriceAfterX96",
+          "type": "uint160"
+        }
+      ],
+      "name": "onPositionChanged",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "account",
+          "type": "address"
+        },
+        {
+          "internalType": "uint256",
+          "name": "liquidityAfter",
+          "type": "uint256"
+        }
+      ],
+      "name": "onRiskBufferFundPositionChanged",
+      "outputs": [],
+      "stateMutability": "nonpayable",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

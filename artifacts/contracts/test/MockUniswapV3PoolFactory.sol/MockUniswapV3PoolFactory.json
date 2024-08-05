@@ -1,0 +1,30 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "MockUniswapV3PoolFactory",
+  "sourceName": "contracts/test/MockUniswapV3PoolFactory.sol",
+  "abi": [
+    {
+      "inputs": [
+        {
+          "internalType": "uint24",
+          "name": "fee",
+          "type": "uint24"
+        }
+      ],
+      "name": "feeAmountTickSpacing",
+      "outputs": [
+        {
+          "internalType": "int24",
+          "name": "",
+          "type": "int24"
+        }
+      ],
+      "stateMutability": "view",
+      "type": "function"
+    }
+  ],
+  "bytecode": "0x608080604052346100155760d3908161001b8239f35b600080fdfe6080806040526004361015601257600080fd5b600090813560e01c6322afcccb14602857600080fd5b3460785760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126078576004359162ffffff8316830360755750606e602092607c565b60020b8152f35b80fd5b5080fd5b62ffffff168015609757610bb803609257603c90565b601e90565b5060009056fea2646970667358221220f5eb80dc7f6b2ad82a0a40ad11f9ee9584ddcad98135ff1c30e50137cafe305864736f6c63430008180033",
+  "deployedBytecode": "0x6080806040526004361015601257600080fd5b600090813560e01c6322afcccb14602857600080fd5b3460785760207ffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffffc3601126078576004359162ffffff8316830360755750606e602092607c565b60020b8152f35b80fd5b5080fd5b62ffffff168015609757610bb803609257603c90565b601e90565b5060009056fea2646970667358221220f5eb80dc7f6b2ad82a0a40ad11f9ee9584ddcad98135ff1c30e50137cafe305864736f6c63430008180033",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}

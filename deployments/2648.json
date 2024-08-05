@@ -1,0 +1,29 @@
+{
+    "block": 3966093,
+    "usd": "0x4069F86aDd448c60546A5363Da9215690086F8c3",
+    "poolBytecodeHash": "0xfdda4aaf17511528a255089bd7ed03895cd71dd95ebb17f2d1c24437a824d71a",
+    "deployments": {
+        "PoolUtil": "0x0170A96Cac4dd1D3dE9FB7fB19A6C10D43e663D3",
+        "FundingRateUtil": "0xe3Bff3b3c46D1866E584F84e4eD17eE0CDef172C",
+        "PriceUtil": "0x25F460F2E84608EE83E93b7E36985a37D241fD1F",
+        "PositionUtil": "0x0f6b3cAfD5ab9bE37f8299284D7A30B93F3B76b7",
+        "LiquidityPositionUtil": "0xb8c08A9F7A4efcD4B3a460b8B45236d1A86d1B64",
+        "EQU": "0x415823B3f7A95573a1c170890bcaA555428c3ac2",
+        "veEQU": "0x0952F566573D1fF7cb5c943462849a15D9E4FAa5",
+        "EFC": "0x44E0d7c4C91775A2020CDE53f5dD8Ee266dC1b3F",
+        "Router": "0x103117557e955bb3e85E812C1C09D6F741a4DEEA",
+        "RewardCollector": "0xF7296A29F35e1bf032Fb86f134203Ee23de375c7",
+        "OrderBook": "0x8e9f367093ecba0A53C185a13140A90E29366bcc",
+        "PositionRouter": "0x50Fa69Efe37f2ab8Df3Eb7B882c5E7F9C77C07Eb",
+        "PriceFeed": "0xd3Ba5AAbC385C3e3CEA315480219B138e3fbd926",
+        "RewardFarm": "0xDeFc91Ba261D0d398C50981176D55AEe1385f98b",
+        "FeeDistributor": "0x36da16Bf9e1e9B583F0d7D05dA8DF78851E6Dd41",
+        "PoolFactory": "0xe97728c9Ffd05272C60ed040705ED85d7743b892",
+        "MixedExecutor": "0xa459137f91859eF52D425706390AD60Eb7724377",
+        "ExecutorAssistant": "0x5f4fc561B7D80e92532dDE148e8233DD49648819",
+        "Liquidator": "0xadC66101714833DF5b015DA946B87530938F304A",
+        "PositionFarmRewardDistributor": "0x3F08Af75F19A04bBA92Fa7C4eA0A2BAFB81cB758",
+        "PoolIndexer": "0xc38cC31226d03d2f7DBD2805457904Caaf7a3517",
+        "FarmRewardDistributorV2": "0xC3b18C3A3270118b8a1Baee4e3C936F158A1F16B"
+    }
+}

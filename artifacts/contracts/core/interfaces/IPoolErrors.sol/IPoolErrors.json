@@ -1,0 +1,211 @@
+{
+  "_format": "hh-sol-artifact-1",
+  "contractName": "IPoolErrors",
+  "sourceName": "contracts/core/interfaces/IPoolErrors.sol",
+  "abi": [
+    {
+      "inputs": [],
+      "name": "CallerNotLiquidator",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "balance",
+          "type": "uint128"
+        },
+        {
+          "internalType": "uint128",
+          "name": "requiredAmount",
+          "type": "uint128"
+        }
+      ],
+      "name": "InsufficientBalance",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InsufficientGlobalLiquidity",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InsufficientMargin",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint128",
+          "name": "size",
+          "type": "uint128"
+        },
+        {
+          "internalType": "uint128",
+          "name": "requiredSize",
+          "type": "uint128"
+        }
+      ],
+      "name": "InsufficientSizeToDecrease",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "requiredCaller",
+          "type": "address"
+        }
+      ],
+      "name": "InvalidCaller",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "InvalidLiquidityToOpen",
+      "type": "error"
+    },
+    {
+      "inputs": [],
+      "name": "LastLiquidityPositionCannotBeClosed",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "margin",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint128",
+          "name": "liquidity",
+          "type": "uint128"
+        },
+        {
+          "internalType": "uint32",
+          "name": "maxLeverage",
+          "type": "uint32"
+        }
+      ],
+      "name": "LeverageTooHigh",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "requiredPositionID",
+          "type": "uint256"
+        }
+      ],
+      "name": "LiquidityPositionNotFound",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "margin",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "unrealizedPnL",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "maintenanceMargin",
+          "type": "uint256"
+        }
+      ],
+      "name": "MarginRateTooHigh",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "int256",
+          "name": "margin",
+          "type": "int256"
+        },
+        {
+          "internalType": "int256",
+          "name": "unrealizedPnL",
+          "type": "int256"
+        },
+        {
+          "internalType": "uint256",
+          "name": "maintenanceMargin",
+          "type": "uint256"
+        }
+      ],
+      "name": "MarginRateTooLow",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "address",
+          "name": "requiredAccount",
+          "type": "address"
+        },
+        {
+          "internalType": "Side",
+          "name": "requiredSide",
+          "type": "uint8"
+        }
+      ],
+      "name": "PositionNotFound",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "margin",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint64",
+          "name": "liquidationExecutionFee",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint128",
+          "name": "positionUnrealizedLoss",
+          "type": "uint128"
+        }
+      ],
+      "name": "RiskRateTooHigh",
+      "type": "error"
+    },
+    {
+      "inputs": [
+        {
+          "internalType": "uint256",
+          "name": "margin",
+          "type": "uint256"
+        },
+        {
+          "internalType": "uint64",
+          "name": "liquidationExecutionFee",
+          "type": "uint64"
+        },
+        {
+          "internalType": "uint128",
+          "name": "positionUnrealizedLoss",
+          "type": "uint128"
+        }
+      ],
+      "name": "RiskRateTooLow",
+      "type": "error"
+    }
+  ],
+  "bytecode": "0x",
+  "deployedBytecode": "0x",
+  "linkReferences": {},
+  "deployedLinkReferences": {}
+}
